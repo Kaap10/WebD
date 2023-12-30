@@ -1,0 +1,17 @@
+target="_blank" use krne se new tab mai link khulta hai
+
+ALT + Shift + Down Arrow use krne se Line neeche copy paste hojati hai
+alto + click krne se multiple curson use kr skte hain
+
+CSS file -> head mai link krte hain
+aise: <link rel="stylesheet" href = "style.css">
+
+JS file -> body mai link krte hain
+aise: <script src="script.js"></script>
+
+lorem23 or lorem(int) use krne se khali jagah fill krskte hai upto any int given number
+
+kisi Link ke liye Anchor tag ka usekrte hain
+<a href="https://www.google.com">Google</a> //or agar new tab mai kholna ho toh target="_blank" use krna pdega
+
+meta hmare content ko bata rha hai ki kaisa hai 
