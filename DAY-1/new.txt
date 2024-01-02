@@ -1,7 +1,8 @@
+[Video-1,2,3,4]
 target="_blank" use krne se new tab mai link khulta hai
 
 ALT + Shift + Down Arrow use krne se Line neeche copy paste hojati hai
-alto + click krne se multiple curson use kr skte hain
+alt + click krne se multiple curson use kr skte hain
 
 CSS file -> head mai link krte hain
 aise: <link rel="stylesheet" href = "style.css">

@@ -1,0 +1,32 @@
+Win + Shift + S -> Snipping tool 
+
+Image ke liye->
+<img height=" " src="image.png" alt="Train Image">
+
+Table ke liye->
+colspan="2" -> 2 column ki jagah lega //left right
+rowspan="2" -> 2 row ke jagah lega  // uper niche
+
+grouping bhi kr skte hai, using->
+<table>
+       <thead>
+       </thead>
+
+       <tbody>
+       </tbody>
+
+       <tfoot>
+       </tfoot>
+</table>
+
+/undordered list -> iska koi order nhi hota, defauly bullet points
+koi dusra symbol chaiye toh 
+-> <ul type="square">
+
+<meta="desciption"> use krte hain webite ka desciption dene ke liye
+jururi nhi hai ki search engine pass krega-> Voh Seach engine dekhlena ki kya pass krna, kya rakhna 
+
+<meta keywords> ab nhi chlta 
+---------------------------------------------
+
+<br> tag is not recoomendable

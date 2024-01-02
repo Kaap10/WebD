@@ -1,0 +1,7 @@
+Core Web Vitals jaruri hota hai
+-> Google vhi webiste recommend krega jo ki fast load hoga
+
+(1) CLS -> cummative layout shift, kam se kam hona chaiye (ex: order)
+(2) LCP -> Largest Contentful Paint, sbse bada Content/image kitne der mai load ho rha hai, 2.5s
+(3) FIP -> first input Delay, processing <100ms
+
