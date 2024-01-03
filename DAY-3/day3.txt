@@ -1,0 +1,13 @@
+block element -> failke jaagh chaiye hota hai
+inline element -> jitna jagah jarurat hota hai, utna hi chaiye hota hai 
+
+blaock element -> p, div
+inline element -> a, span
+--------------------------------
+
+multiple classes dena hot toh space dene pdega-> class"red bg-yellow"
+id sabke alag hoti hai
+#-> linking bhi krata hai website mai
+
+classes ko hum-> . se dikahte hain
+id ko hum -> # se dikahte hain
