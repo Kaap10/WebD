@@ -1,0 +1,55 @@
+Entities -> file tags ko dikhane ke liye, jo ki collide krte hain
+&nbsp -> spaces dene ke liye
+
+&lt; -> < 
+7gt; -> >
+
+shift+tab se 1 ident kam hojata hai 
+
+CSS File ko include krne ke- 3 tareeke hote hain   
+    1. Inline (apne tag vale line mai hi style ka use krlena)
+    2. Internal (alag se head mai style ka use krna)
+    3. External (alag se .css file use krna & usko html file mai head mai connect krdena )
+
+Selctors :
+    1. Element Selector 
+       div{
+
+       }
+    2. Class Selector
+       .red {
+
+       }
+    3. ID selectpr 
+       #green {
+
+       }
+    4. Universal Selector 
+       *{
+
+       }
+    5. Child Selector //yeh div ke ander p hona chaiye, agar kisi or ke through p hua toh yeh kaam nhi krega -> aage refer to Descendant
+       div > p {
+
+       }
+    6. Descendant Selector //yeh chahta hai ki div ke ander p hona chaiye, nhi farak dta ki kiske through p aaya 
+       div p {
+
+       } 
+
+    7. Pseudo Selector //mai yeh chahta hun ki mera link visit hone ke baad yellow colour ka hoajye
+        a:visited{
+            color:yellow
+        }
+
+        a:link { //link ka colour green hojata hai 
+            color: green
+        }
+
+        a:active { // jab click kr rhho link ko tab yeh active hojata hai 
+            color: red
+        }
+
+        a:hover { //jaise hi cursor ko link pe launga, backgroun colour yellow banjayega 
+            background-color:yellow
+        }
