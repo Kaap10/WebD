@@ -1,0 +1,22 @@
+font use krna hai toh -> font {} la use krr skte hain
+
+kisi project pe kam krna hait oh, font family dene jaruri hai, sayad koi font kisi macchine pe chlta na ho 
+
+font-family: 
+
+font-style: //italic etc
+
+font-weight: //bold hota issue
+
+font-size: //pixels mai use px mai
+
+line-height: // two line ke bich gap 
+
+text-transform: capitalize; or lowercase; // yeh pehle elemnt of word ko ya toh captial letter krdega ya small letter 
+
+text-decoration: underline
+text-decoration-line: //color de skte hain
+
+-> Code Pen: 
+
+dekho Google font mai jao-> jo badhiya lage toh copy kro, style attibute ke ander paste krdo simple, baloo bhaiya nd poppins
