@@ -1,0 +1,43 @@
+1. {CSS ko 3 tarah se include kr skte hain}
+-> Inline (Body mai line ke ander include krke like: style=" ")
+-> Internal (head mai use krke like: style=" ") {Imp: Internal > External (priority wise)}
+-> External (alag se .css file banake, head mai include krna like <link rel="stylesheet" href="style.css")
+-------------------------------------
+2. color ko hex-code mai dena chaiye (because we dont know the red color or chrome is same any other browser red color, thats why its best to give hex-code)
+-------------------------------------
+3. padding or margin mai difference
+-> padding : ander ki taraf
+-> margin : bahar ki taraf 
+
+4. {Properties}
+-> background-color: red; (bgc)
+-> color: blue;
+-> padding: 10px;
+-> margin: 10px;
+
+5. {Selectors}
+-> Element selectors (normal for pargraph, heading etc)
+
+-> Class selectors (element ke ander attribute dena with class name like: <p class="start1"> and how to give? .start1{ ... })
+
+-> ID selectors (same as class but)
+{Imp-> whats the difference between Class and ID selectors?
+Ans: both works as same but we should not repeat same ID not more than one, every ID should be different}
+
+-> attribute selectors (<input type="password"> and input[type="text"]{...}) {imp: attribute dete time koi falti space mat dena}
+
+-> Pseudo selectors (<button =" "> and button:hover{...}) -> pseudo mai button hona chaiye then activity
+
+-> selector list ( ek sath or bhi element le skte hain like: h1, p {...})
+
+6. Borders dene ke 3 methods
+-> dashed
+-> solid
+-> dotted
+
+7. CSS Styling
+-> color: red;
+-> background-color: black;
+-> padding: 100px 10px 25px 200px; {imp-> it move like top, right, bottom, left} #CLOCKWISE Direction
+-> border: 25px solid black;
+-> margin; 
