@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Js Validation</title>
+    <script>
+        function validateForm() {
+            // Get the values from the input fields
+            var email = document.getElementById("email").value;
+            var phoneNumber = document.getElementById("phoneNumber").value;
+
+            // Regular expression patterns for email and phone number validation
+            var emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            var phoneNumberPattern = /^\d{10}$/;
+
+            // Perform validation
+            if (!emailPattern.test(email)) {
+                alert("Invalid email address");
+                return false;
+            }
+
+            if (!phoneNumberPattern.test(phoneNumber)) {
+                alert("Invalid phone number");
+                return false;
+            }
+
+            // Redirect to success.html
+            window.location.href = "success.html";
+        }
+    </script>
+</head>
+<body>
+    <h1>Js Validation</h1>
+    <form onsubmit="return validateForm()">
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email" required><br><br>
+
+        <label for="phoneNumber">Phone Number:</label>
+        <input type="text" id="phoneNumber" name="phoneNumber" required><br><br>
+
+        <input type="submit" value="OK">
+    </form>
+</body>
+</html>
