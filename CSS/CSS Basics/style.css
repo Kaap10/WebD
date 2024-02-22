@@ -1,0 +1,23 @@
+p{
+    color: black;
+    background-color: pink;
+    text-align: center;
+    text-decoration: underline;
+}
+
+#title{
+    color: red;
+    font-size: 30px;
+    text-align: center;
+}
+
+.class{
+    color: blue;
+    font-size: 20px;
+    text-align: center;
+}
+
+h4, h5{
+    color: green;
+    text-align: center;
+}
