@@ -82,6 +82,7 @@ nav button {
     text-align: center;
 }
 
+
 .separation {
     height: 7px;
     background-color: rgb(46, 44, 44);
@@ -101,7 +102,7 @@ nav button {
 }
 
 .btn-red {
-    background-color: red;
+    background-color: rgb(255, 0, 0);
     color: white;
     padding: 3px 24px;
     font-size: 20px;
@@ -109,9 +110,19 @@ nav button {
     font-weight: 400;
 }
 
+.btn-red:hover{
+    background-color: rgb(rgb(203, 2, 2));
+}
+
+
+
 .btn-red-sm {
-    background-color: red;
+    background-color: rgb(255, 0, 0);
     color: white;
+}
+
+.btn-red-sm:hover{
+    background-color: rgb(203, 2, 2);
 }
 
 .hero-buttons {
@@ -305,4 +316,5 @@ footer .questions {
     display: flex;
     flex-direction: column;
     gap: 23px;
+    color: grey;
 }
