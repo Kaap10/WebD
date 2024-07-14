@@ -1,0 +1,5 @@
+Note 1: When a variable is declared but not initialized, it defaults to undefined.
+Note 2: The typeof null returns object is a known bug in JavaScript. A proposal to fix was rejected due to the potential to break many existing sites.
+Note 3: JavaScript defines that null is equal to undefined
+Note 4: To make a BigInt, you append n to the end of the number literal
+Note 5: The Symbol function creates a new unique value every time you call it. //console.log(Symbol() == Symbol());
