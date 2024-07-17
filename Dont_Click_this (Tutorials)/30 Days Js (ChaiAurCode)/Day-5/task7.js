@@ -1,6 +1,8 @@
 
-const multiply = (num1, num2) =>
-    let mul = num1 * num2;
-    console.log(result);
+function multiply(num1, num2=1) {
+    result = num1 * num2;
+    return result;
+}
 
-multiply(num1, num2);
+console.log(multiply(5, 4));
+console.log(multiply(7));
