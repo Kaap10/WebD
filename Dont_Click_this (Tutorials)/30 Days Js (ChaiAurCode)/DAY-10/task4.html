@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        #task4 {
+            width: 200px;
+        height: 200px;
+        background-color: lightblue;
+        }
+    </style>
+</head>
+<body>
+    <div id="task4">Please try to hover me</div>
+
+    <script>
+        const task4 = document.getElementById('task4');
+
+        task4.addEventListener('mouseover', function() {
+            this.style.backgroundColor = 'yellow';
+        });
+
+        task4.addEventListener('mouseout', function() {
+            this.style.backgroundColor = 'lightblue';
+        });
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Event Handling</title>
+  </head>
+
+  <body>
+    <div id="parentElement">Parent Element</div>
+    <button id="addElementBtn">Add Child Element</button>
+
+    <script>
+      document
+        .getElementById("parentElement")
+        .addEventListener("click", function (event) {
+          if (event.target.classList.contains("childElement")) {
+            console.log("Clicked child element:", event.target.textContent);
+          }
+        });
+
+      let count = 0;
+      document
+        .getElementById("addElementBtn")
+        .addEventListener("click", function () {
+          const newElement = document.createElement("div");
+          newElement.className = "childElement";
+          newElement.textContent = `New Child Element ${count++}`;
+          document.getElementById("parentElement").appendChild(newElement);
+        });
+    </script>
+  </body>
+</html>

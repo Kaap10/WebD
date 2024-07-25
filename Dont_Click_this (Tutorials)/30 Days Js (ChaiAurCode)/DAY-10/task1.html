@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Event Handling</title>
+  </head>
+  <body>
+    <p id="paragraph">This is a paragraph.</p>
+    <button id="changeTextBtn">Change Text</button>
+
+    <script>
+      document
+        .getElementById("changeTextBtn")
+        .addEventListener("click", function () {
+          document.getElementById("paragraph").textContent =
+            "Text has been changed!";
+        });
+    </script>
+  </body>
+</html>
