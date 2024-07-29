@@ -3,9 +3,14 @@
   "version": "1.0.0",
   "description": "<h3> <u>\"Game of Shapes\"</u> </h3>\r <p> <b> 🔸Mini Project-1 </b>using (HTML + CSS)</p>\r <br>",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "lodash": "^4.17.21"
+  }
 }
