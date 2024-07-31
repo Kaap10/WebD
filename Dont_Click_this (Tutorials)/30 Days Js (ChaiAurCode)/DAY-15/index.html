@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <button id="myButton">Click me</button>
+
+    <script>
+      function attachClickListener() {
+        let clickCount = 0;
+
+        document
+          .getElementById("myButton")
+          .addEventListener("click", function () {
+            clickCount++;
+            console.log(`Button clicked ${clickCount} times`); // Button clicked 1 times
+          });
+      }
+
+      attachClickListener();
+    </script>
+  </body>
+</html>
